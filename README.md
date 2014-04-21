@@ -1,3 +1,3 @@
-# Apache Tiki Example with Maven
+# Apache Tika Example with Maven
 
-Java with Maven example of using Tiki
+Java with Maven example of using Tika
