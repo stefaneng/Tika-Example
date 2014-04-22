@@ -49,9 +49,8 @@ public class ExampleTika {
             e.printStackTrace();
         }
 
-        for (int i = 0; i < metadata.names().length; i++) {
-            String item = metadata.names()[i];
-            System.out.println(item + " -- " + metadata.get(item));
+        for (String name : metadata.names()) {
+            System.out.println(name + " -- " + metadata.get(name));
         }
 
         System.out.println(ch.toString());
